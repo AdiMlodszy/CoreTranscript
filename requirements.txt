@@ -1,0 +1,32 @@
+# --- Apple Silicon Native (Core Performance) ---
+mlx-whisper>=0.2.0
+
+# --- PyTorch Stack (Musi być zgodny z Pyannote) ---
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
+
+# --- Diarization Engine ---
+pyannote.audio==3.3.1
+pytorch-lightning==2.4.0
+torchmetrics==1.4.2
+onnxruntime==1.19.2
+
+# --- Audio & System ---
+soundfile==0.12.1
+sounddevice==0.5.0
+scipy==1.14.1
+numpy==1.26.4
+
+# --- Application Layer ---
+fastapi==0.115.0
+uvicorn[standard]==0.31.1
+python-multipart==0.0.12
+pydantic==2.9.1
+
+# --- Frontend ---
+streamlit==1.52.0
+watchdog==5.0.3
+
+python-dotenv
+huggingface-hub==0.24.7
