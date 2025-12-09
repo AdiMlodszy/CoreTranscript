@@ -52,9 +52,9 @@ source venv/bin/activate
 
 > **Ważne**: Projekt wymaga konkretnych wersji bibliotek, aby uniknąć konfliktów między Pyannote a HuggingFace Hub. Użyj załączonego pliku requirements.
 
+Jeśli nie masz ffmpeg, oraz portaudio należy je doinstalować:
 ```bash
-# (Opcjonalnie) Jeśli nie masz ffmpeg, warto go doinstalować:
-# brew install ffmpeg
+# brew install ffmpeg portaudio tree
 
 pip install -r requirements.txt
 ```
