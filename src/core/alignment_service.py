@@ -61,7 +61,7 @@ class AlignmentService:
                 seg = segments[i]
                 
                 # Margines błędu 0.5s (ludzie często zaczynają mówić minimalnie przed/po wykryciu)
-                if (word_start >= seg['start'] - 0.5) and (word_start <= seg['end'] + 0.5):
+                if (word_start >= seg['start'] - 0.75) and (word_start <= seg['end'] + 0.75):
                     assigned_speaker = seg['speaker']
                     current_speaker_idx = i # Nie cofamy się w liście segmentów
                     break
